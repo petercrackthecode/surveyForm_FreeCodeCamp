@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+
+h1  {
+  font-family: "Raleway", san-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+#description  {
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+#survey-form  {
+  font-size: 18px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  width: 80%;
+  background-color: white;
+  margin: 10px auto 10px auto;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+
+.input-container  {
+  /*border: 1px solid red;*/
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tag  {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+.input-area {
+  display: inline-block;
+  width: 49%;
+  float: right;
+  text-align: left;
+}
+
+input, textarea {
+  border-radius: 5px;
+}
+
+textarea  {
+  margin-left: 10px;
+}
+
+input#submit  {
+  color: white;
+  display: block;
+  background-color: blue;
+  border-radius: 6px;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  margin: 10px auto 10px auto;
+}
+
+input#submit:hover  {
+  cursor: pointer;
+}
+
+@media (max-width: 520px) {
+  .input-container  {
+    display: block;
+    text-align: left;
+  }
+
+  .tag {
+    width: 100%;
+    float: none;
+  }
+
+  .input-area {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 400px;
+    float: none;
+  }
+
+  label#improve-label > br {
+    display: none;
+  }
+
+  label#improve-label {
+    display: initial !important;
+  }
+
+  textarea  {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
